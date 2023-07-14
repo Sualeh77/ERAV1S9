@@ -55,15 +55,25 @@ Below is the summary of the model.
            Conv2d-37             [-1, 64, 3, 3]          36,928
 AdaptiveAvgPool2d-38             [-1, 64, 1, 1]               0
            Conv2d-39             [-1, 10, 1, 1]             650
+
 ================================================================
+
 Total params: 180,298
+
 Trainable params: 180,298
+
 Non-trainable params: 0
+
 ----------------------------------------------------------------
+
 Input size (MB): 0.01
+
 Forward/backward pass size (MB): 4.01
+
 Params size (MB): 0.69
+
 Estimated Total Size (MB): 4.71
+
 ----------------------------------------------------------------
 
 Model has 4 blocks each block consist 3 Convolution Layers. Last layer of each block is used as a transition layer to diminish the number of channels, The transition layer is a strided and dilated convolution layer. In block 2 a depthwise seperable convolution layer is used. Parameters are kept below 200k as per assignment instructions.
