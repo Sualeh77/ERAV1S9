@@ -53,7 +53,7 @@ Below is the summary of the model.
       BatchNorm2d-35             [-1, 64, 3, 3]             128
           Dropout-36             [-1, 64, 3, 3]               0
            Conv2d-37             [-1, 64, 3, 3]          36,928
-AdaptiveAvgPool2d-38             [-1, 64, 1, 1]               0
+      AdaptiveAvgPool2d-38       [-1, 64, 1, 1]               0           
            Conv2d-39             [-1, 10, 1, 1]             650
 
 ================================================================
